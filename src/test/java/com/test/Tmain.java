@@ -2,7 +2,6 @@ package com.test;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
-import org.junit.Test;
 
 import thinkInjava.c4.Flower;
 
@@ -17,10 +16,11 @@ public class Tmain {
 		System.out.println("After  test####################################################################");
 	}
 
-	@Test
+	// @Test
 	public void testFlower() {
 
 		Flower x = new Flower();
 		x.print();
 	}
+
 }
