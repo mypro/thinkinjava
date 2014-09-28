@@ -1,7 +1,7 @@
 package thinkInjava.c4;
 
 //: ArrayClassObj.java
-//Creating an array of non-primitive objects.
+//Creating an array of non-primitive objects.\
 import java.util.Random;
 
 public class ArrayClassObj {
