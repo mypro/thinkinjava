@@ -37,6 +37,7 @@ class Chair {
 }
 
 public class Garbage {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		if (args.length == 0) {
 			System.err.println("Usage: \n" + "java Garbage before\n  or:\n" + "java Garbage after");

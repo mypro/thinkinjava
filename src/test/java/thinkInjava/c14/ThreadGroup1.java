@@ -5,6 +5,7 @@ package thinkInjava.c14;
 //of the threads inside them.
 
 public class ThreadGroup1 {
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		// Get the system thread & print its Info:
 		ThreadGroup sys = Thread.currentThread().getThreadGroup();
