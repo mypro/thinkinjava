@@ -1,6 +1,6 @@
 [TOC]
 
-# thinkinjava笔记
+#  thinkinjava笔记
 
 ## 第1章 对象入门
 ## 第2章 一切都是对象
