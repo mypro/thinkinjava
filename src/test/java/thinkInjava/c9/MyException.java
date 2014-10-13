@@ -4,7 +4,14 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class Exceptest {
+public class MyException extends Exception {
+
+	public MyException (){}
+	public MyException(String msg){
+		super(msg);
+	}
+
+
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		System.out.println("before test##########################################");
@@ -16,7 +23,7 @@ public class Exceptest {
 	}
 
 	@Test
-	public void testSublist() {
-		System.out.println("test##########################################");
+	public void test() {
+
 	}
-}
+} // /:~
