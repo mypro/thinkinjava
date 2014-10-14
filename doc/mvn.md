@@ -2,6 +2,7 @@
 ### 执行main方法
 	#执行 com.java.Main.class  main方法
 	mvn exec:java -Dexec.mainClass="com.java.Main" -Dexec.args="arg0 arg1 arg2"
+	mvn exec:java -Dexec.mainClass="thinkInjava.c10.Dirlist" -Dexec.args="arg0 arg1 arg2"
 ### sublime 运行
 		ctrl+B
 		#注意把package注释掉 
