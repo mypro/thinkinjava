@@ -3,7 +3,7 @@ package com.test;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 
-import thinkInjava.c4.Flower;
+import thinkInjava.c04.Flower;
 
 public class Tmain {
 	@BeforeClass
