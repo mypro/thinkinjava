@@ -56,5 +56,23 @@ public class Dirlist {
 
 	@Test
 	public void test() {
+		try {
+			String[] param = new String[] {};
+			// String[] param = new String[] { "git" };
+			File path = new File(".");
+			String[] list;
+			if (param.length == 0) {
+				list = path.list();
+			} else {
+				list = path.list(new DirFilter(param[0]));
+			}
+			for (String element : list) {
+				Prt.outln(element);
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+
+		}
 	}
 }
