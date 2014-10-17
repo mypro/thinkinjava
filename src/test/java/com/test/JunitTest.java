@@ -34,4 +34,10 @@ public class JunitTest {
 		x.print();
 	}
 
+	@Test
+	public void testconsole() {
+
+		System.console();
+	}
+
 }
