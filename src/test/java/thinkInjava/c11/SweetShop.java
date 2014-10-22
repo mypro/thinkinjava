@@ -44,7 +44,7 @@ static {
 		try{
 			Class.forName("Gum");
 		}catch(ClassNotFoundException e){
-			e.printStackTrace();
+			// e.printStackTrace();
 		}
 		Prt.outln("After Class.forName(\"Gum\")");
 
