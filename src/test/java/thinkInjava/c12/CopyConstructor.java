@@ -1,5 +1,7 @@
 package thinkInjava.c12;
 
+import com.alibaba.fastjson.JSON;
+
 //: Compete.java
 
 //: CopyConstructor.java
@@ -61,9 +63,10 @@ class Fruit {
 	Fruit(Fruit f) {
 		fq = new FruitQualities(f.fq);
 		seeds = f.seeds;
+		s = new Seed[seeds];
 		// Call all Seed copy-constructors:
 		for (int i = 0; i < seeds; i++) {
-			s[i] = new Seed(s[i]);
+			s[i] = new Seed(f.s[i]);
 			// Other copy-construction activities...
 		}
 	}
@@ -116,6 +119,7 @@ class GreenZebra extends Tomato {
 
 	void evaluate() {
 		ZebraQualities zq = (ZebraQualities) getQualities();
+		System.out.println(JSON.toJSONString(zq));
 		// Do something with the qualities
 		// ...
 	}
